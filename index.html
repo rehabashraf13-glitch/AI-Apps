@@ -1,33 +1,83 @@
+
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <title>بيئة التعلم الذكية</title>
-  <link rel="stylesheet" href="assets/style.css">
-  <script src="assets/app.js" defer></script>
+    <meta charset="UTF-8">
+    <title>المقرر الذكي</title>
+    <style>
+        body {
+            font-family: "Tahoma", sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f9f9f9;
+        }
+        header {
+            text-align: center;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        header img {
+            max-height: 100px;
+            margin: 10px;
+        }
+        header .banner {
+            margin-top: 20px;
+        }
+        header .banner img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        nav {
+            background: #2c3e50;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-  <nav class="navbar">
-    <ul>
-      <li><a href="index.html">الرئيسية</a></li>
-      <li class="dropdown">
-        <a href="modules.html" class="dropbtn">الموديولات</a>
-        <div class="dropdown-content">
-          <a href="module-sql.html">SQL</a>
-          <a href="module-python.html">Python</a>
-        </div>
-      </li>
-      <li><a href="pretest.html">الاختبار القبلي</a></li>
-      <li><a href="posttest.html">الاختبار البعدي</a></li>
-      <li><a href="#">التواصل بالاستشعار</a></li>
-      <li><a href="https://www.w3schools.com/python/trypython.asp?filename=demo_default" target="_blank">Run Code</a></li>
-      <li><a href="https://appinventor.mit.edu/" target="_blank">Run App Inventor</a></li>
-    </ul>
-  </nav>
 
-  <section class="hero">
-    <h1>مرحبًا بكم في بيئة التعلم الذكية</h1>
-    <p>اختر من القائمة أعلاه للتنقل بين الصفحات.</p>
-  </section>
+<header>
+    <!-- شعارات الجامعة والقسم -->
+    <img src="university_logo.png" alt="شعار الجامعة">
+    <img src="department_logo.png" alt="شعار القسم">
+
+    <!-- صورة البانر -->
+    <div class="banner">
+        <img src="banner.png" alt="بانر المقرر">
+    </div>
+
+    <h1>مقررك الذكي</h1>
+    <p>تصميم بيئة تعليمية ذكية قائمة على إنترنت الأشياء</p>
+</header>
+
+<!-- شريط القوائم -->
+<nav>
+    <a href="index.html">الرئيسية</a>
+    <a href="module1.html">الموديول 1</a>
+    <a href="module2.html">الموديول 2</a>
+    <a href="https://www.w3schools.com/python/trypython.asp?filename=demo_default" target="_blank">Run Code</a>
+    <a href="https://appinventor.mit.edu/" target="_blank">Run App Inventor</a>
+</nav>
+
+<main>
+    <h2>مرحبا بكم في بيئتكم التعليمية</h2>
+    <p>يمكنك استكشاف الموديولات التعليمية، وتنفيذ الأكواد مباشرة، وتجربة بناء تطبيقاتك.</p>
+</main>
+
 </body>
 </html>
